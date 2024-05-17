@@ -24,7 +24,7 @@
     
     nav{
         width: 98.9vw;
-        height: 9vh;
+        height: 6vh;
         background-color: red;
         border-bottom: 7px solid rgb(177, 0, 0);
         display: flex;
@@ -34,8 +34,8 @@
     }
     
     .logo{
-        width: 7vw;
-        height: 9vh;
+        width: 4vw;
+        height: 6vh;
         margin-top: .8vh;
     }
     
@@ -46,11 +46,12 @@
     }
     
     li,a{
-        font-size: 2.29rem;
+        font-size: 1.5rem;
         list-style: none;
         text-decoration: none;
         color: #FAFF00;
         padding: .07rem 1.3rem .07rem 1.3rem;
+        padding-left: 2vw;
     }
     
     li:hover{
@@ -107,12 +108,12 @@
     }
     
     .social{
-        width: 15vw;
-        margin-right: 5vw;
+        width: 5vw;
+        padding-right: 5vw;
     }
     
     .social-media{
-        margin-left: 17vw;
+        margin-left: 31vw;
     }
     
     .social:hover{
@@ -137,16 +138,16 @@
     .skills-list{
         color: white;
         text-align: left;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .skills-stars{
-        color: #FAFF00;
-        text-shadow: 1px 1px 3px rgb(242, 255, 3);
+        color: #ff0000;
+        text-shadow: 1px 1px 3px rgb(255, 3, 3);
     }
     
     .article-skills{
-        height: 50vh;
+        height: 40vh;
         width: 30vw;
         margin-left: 38.8vw;
     }
@@ -163,23 +164,24 @@
     }
     
     .header1{
-        width: 30vw;
-        height: 70vh;
+        width: 25vw;
+        height: 60vh;
         background-color: rgb(46, 46, 46);
-        margin-right: 2vw;
+        margin-right: 6vw;
         border-radius: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
         color: #FAFF00;
+        border: 2px solid rgba(253, 149, 149, 0);
     }
     
     .header2{
-        width: 30vw;
-        height: 70vh;
+        width: 25vw;
+        height: 60vh;
         background-color: rgb(46, 46, 46);
-        margin-right: 2vw;
+        margin-right: 6vw;
         border-radius: 1rem;
         display: flex;
         flex-direction: column;
@@ -187,11 +189,12 @@
         text-align: center;
         align-items: center;
         color: #FAFF00;
+        border: 2px solid rgba(253, 149, 149, 0);
     }
     
     .header3{
-        width: 30vw;
-        height: 70vh;
+        width: 25vw;
+        height: 60vh;
         background-color: rgb(46, 46, 46);
         border-radius: 1rem;
         display: flex;
@@ -200,6 +203,7 @@
         text-align: center;
         align-items: center;
         color: #FAFF00;
+        border: 2px solid rgba(253, 149, 149, 0);
     }
     
     .header1:hover, .header2:hover, .header3:hover{
@@ -214,7 +218,7 @@
     }
     
     .project1{
-        width: 30vw;
+        width: 25vw;
     }
     
     .project2{
@@ -222,7 +226,7 @@
     }
     
     .project3{
-        width: 30vw;
+        width: 25vw;
     }
     
     .contact-body{
